@@ -8,12 +8,7 @@ var jcalTimezoneComp = null;
 var jcalTzId = null;
 var icalTimeZone = null;
 
-
-var _raw = null;
-var _variable = null;
-
 function addZero(_int) {
-
     parseInt(_int);
     if (_int < 10) {
         var padded = '0' + _int;
@@ -21,7 +16,6 @@ function addZero(_int) {
     } else {
         return String(_int)
     }
-
 }
 
 function to12hour(_24hourTime) {
@@ -30,6 +24,7 @@ function to12hour(_24hourTime) {
     var min = ta[2] + ta[3];
     var ampm = (hour > 11) ? ' PM' : ' AM';
     if (hour > 12) hour = hour - 12;
+	if (hour == 0) hour = 12;
     return hour + ':' + min + ampm;
 }
 
@@ -166,11 +161,8 @@ jQuery(function(){
 				jcalTzId
 			});
 			icalToday.convertToZone(icalTimezone)
-			_raw = comp;
-			var vevents = comp.getAllSubcomponents("vevent");
-			_variable = vevents;
 
-			var vevents = _raw.getAllSubcomponents('vevent');
+			var vevents = comp.getAllSubcomponents('vevent');
 			
 			var iterStartTime = new ICAL.Time({
 			    year: icalToday.year,
