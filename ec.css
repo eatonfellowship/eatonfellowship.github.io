@@ -27,29 +27,19 @@
 
 #ec_previous_schedule {
 	background-image: url(https://eatonfellowship.github.io/arrow_left_bg.png);
-	background-position: left;
+	background-position: top 1.5pt left;
 	padding-left: 14px;
 	cursor: pointer;
 }
 #ec_next_schedule {
 	background-image: url(https://eatonfellowship.github.io/arrow_right_bg.png);
-	background-position: right;
+	background-position: top 2pt right;
 	padding-right: 14px;
 	cursor: pointer;
 }
 #ec_picker_separator {
 	padding: 0 12px;
 }
-
-/* 
-#ec_schedule_picker_container img {
-	width: 9px;
-	height: 18px;
-	position: relative;
-	top: 5px;
-	margin: 0 4px; 
-	
-} */
 
 .ec_schedule_list_container a, .ec_schedule_list_container a:visited {
 	text-decoration: none;
