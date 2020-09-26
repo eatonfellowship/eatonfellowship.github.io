@@ -1,105 +1,112 @@
-
-
-
-.ec_schedule_list_container, #ec_schedule_picker_container {
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "Poppins", arial, sans-serif;
-	color: rgb(21, 21, 21);
-	font-size: 16px;
-	width: 90%;
+.ec_schedule_list_container,
+#ec_schedule_picker_container {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", arial, sans-serif;
+    color: rgb(21, 21, 21);
+    font-size: 16px;
+    width: 90%;
 
 }
 
 #ec_schedule_picker_container {
-	padding: 40px 0 40px 0;
-	color: rgb(0, 59, 144);
-	display: flex;
+    padding: 40px 0 40px 0;
+    color: rgb(0, 59, 144);
+    display: flex;
 }
 
-#ec_schedule_picker_container >div {
-	height: 18px;
+#ec_schedule_picker_container>div {
+    height: 18px;
 }
-#ec_schedule_picker_container >div >span {
-	vertical-align: middle;
-	line-height: 18px;
+
+#ec_schedule_picker_container>div>span {
+    vertical-align: middle;
+    line-height: 18px;
 }
 
 #ec_previous_schedule {
-	background-image: url(https://eatonfellowship.github.io/arrow_left_bg.png);
-	background-position: top 1.5pt left;
-	padding-left: 14px;
-	cursor: pointer;
-}
-#ec_next_schedule {
-	background-image: url(https://eatonfellowship.github.io/arrow_right_bg.png);
-	background-position: top 2pt right;
-	padding-right: 14px;
-	cursor: pointer;
-}
-#ec_picker_separator {
-	padding: 0 12px;
+    background-image: url(https://eatonfellowship.github.io/arrow_left_bg.png);
+    background-position: top 1.5pt left;
+    padding-left: 14px;
+    cursor: pointer;
 }
 
-.ec_schedule_list_container a, .ec_schedule_list_container a:visited {
-	text-decoration: none;
-	color: rgb(0, 59, 144);
+#ec_next_schedule {
+    background-image: url(https://eatonfellowship.github.io/arrow_right_bg.png);
+    background-position: top 2pt right;
+    padding-right: 14px;
+    cursor: pointer;
+}
+
+#ec_picker_separator {
+    padding: 0 12px;
+}
+
+.ec_schedule_list_container a,
+.ec_schedule_list_container a:visited {
+    text-decoration: none;
+    color: rgb(0, 59, 144);
 }
 
 
 .ec_schedule_li {
 
-  padding: 40px 0 20px 0;
-	border-bottom: 1px solid rgb(191, 191, 191);
-	
+    padding: 40px 0 20px 0;
+    border-bottom: 1px solid rgb(191, 191, 191);
+
 }
-.ec_schedule_li >div {
-	padding-bottom: 10px;
+
+.ec_schedule_li>div {
+    padding-bottom: 10px;
 }
+
 .ec_schedule_li .h3 {
-  font-size: larger;
-	font-weight: 400;
+    font-size: larger;
+    font-weight: 400;
 }
 
-.ec_schedule_li .ec_li_day_time  {
-  	color: rgb(0, 71, 171);
-}
-.ec_schedule_li .ec_li_day_time .dname  {
-  font-size: smaller;
-
-}
-.ec_schedule_li .ec_li_summary  {
-
-
-
-}
-.ec_schedule_li .ec_li_description  {
-  color: rgb(87, 87, 87);
-	line-height: 150%;
+.ec_schedule_li .ec_li_day_time {
+    color: rgb(0, 71, 171);
 }
 
+.ec_schedule_li .ec_li_day_time .dname {
+    font-size: smaller;
 
-@media only screen and (min-width: 641px){
-  .ec_schedule_li {
-    display: flex;
-  }
-  .ec_schedule_li >div {
-    flex: 1;
-		font-size: 18px;
-  }
 }
-@media only screen and (min-width: 1025px){
-  .ec_schedule_li {
-    display: flex;
-  }
-  .ec_schedule_li >div {
-    flex: 1;
-		font-size: 18px;
-  }
-	.ec_schedule_li .ec_li_summary {
-		flex: 2;
-		padding-left: 40px;
-	}
+
+.ec_schedule_li .ec_li_summary {}
+
+.ec_schedule_li .ec_li_description {
+    color: rgb(87, 87, 87);
+    line-height: 150%;
+}
+
+
+@media only screen and (min-width: 641px) {
+    .ec_schedule_li {
+        display: flex;
+    }
+
+    .ec_schedule_li>div {
+        flex: 1;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .ec_schedule_li {
+        display: flex;
+    }
+
+    .ec_schedule_li>div {
+        flex: 1;
+        font-size: 18px;
+    }
+
+    .ec_schedule_li .ec_li_summary {
+        flex: 2;
+        padding-left: 40px;
+    }
 }
 
 
@@ -107,15 +114,11 @@
 span.ec_section_head {
     text-align: center;
     display: block;
-	color: rgb(94, 94, 94);
-	font-family: 'Poppins', arial, sans-serif;
-	font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-family: 'Poppins', arial, sans-serif;
+    font-weight: 400;
 }
+
 span.ec_section_head strong {
-	font-weight: 600;
+    font-weight: 600;
 }
-
-
-
-
-

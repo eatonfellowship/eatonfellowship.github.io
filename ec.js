@@ -25,7 +25,7 @@ function to12hour(_24hourTime) {
     var min = ta[2] + ta[3];
     var ampm = (hour > 11) ? ' PM' : ' AM';
     if (hour > 12) hour = hour - 12;
-	if (hour == 0) hour = 12;
+    if (hour == 0) hour = 12;
     return hour + ':' + min + ampm;
 }
 
@@ -53,18 +53,18 @@ var workingScheduleKey = null;
 
 
 function buildWeekSchedule() {
-	var tt = icalToday.clone();
-	tt.adjust(-1, 0, 0, 0);
-	for (var i = 0; i < daysForward; i++) {
-	    tt.adjust(1, 0, 0, 0);
-	    key = tt.year + '-' + addZero(tt.month) + '-' + addZero(tt.day);
-	    weekSchedule[key] = {
-	        'name': weekdayNames[tt.dayOfWeek()],
-	        'name_short': weekdayNamesShort[tt.dayOfWeek()],
-	        'events': []
-	    };
-	    weekScheduleKeys.push(key);
-	}
+    var tt = icalToday.clone();
+    tt.adjust(-1, 0, 0, 0);
+    for (var i = 0; i < daysForward; i++) {
+        tt.adjust(1, 0, 0, 0);
+        key = tt.year + '-' + addZero(tt.month) + '-' + addZero(tt.day);
+        weekSchedule[key] = {
+            'name': weekdayNames[tt.dayOfWeek()],
+            'name_short': weekdayNamesShort[tt.dayOfWeek()],
+            'events': []
+        };
+        weekScheduleKeys.push(key);
+    }
 };
 
 function buildScheduleDisplay() {
@@ -147,112 +147,112 @@ function activatePickers() {
 }
 
 
-jQuery(function(){
+jQuery(function() {
 
 
     jQuery.ajax({
         url: 'https://eatonfellowship.github.io/eaton.ics?nc=' + unixNow,
         //url: 'http://localhost:8000/eaton.ics?nc=' + unixNow,
         dataType: 'text',
-        success: function(data){
-			var jcalData = ICAL.parse(data);
-			var comp = new ICAL.Component(jcalData);
-			jcalTimezoneComp = comp.getFirstSubcomponent('vtimezone');
-			jcalTzId = jcalTimezoneComp.getFirstPropertyValue('tzid');
+        success: function(data) {
+            var jcalData = ICAL.parse(data);
+            var comp = new ICAL.Component(jcalData);
+            jcalTimezoneComp = comp.getFirstSubcomponent('vtimezone');
+            jcalTzId = jcalTimezoneComp.getFirstPropertyValue('tzid');
 
-			icalTimezone = new ICAL.Timezone({
-				component: jcalTimezoneComp,
-				jcalTzId
-			});
-			icalToday.convertToZone(icalTimezone);
-			buildWeekSchedule();
-
-
-			var vevents = comp.getAllSubcomponents('vevent');
-			
-			var iterStartTime = new ICAL.Time({
-			    year: icalToday.year,
-			    month: icalToday.month,
-			    day: icalToday.day,
-			    minute: 0,
-			    second: 1,
-			    isDate: false
-			});
-			
-			for (var i in vevents) {
-			
-			    vevent = vevents[i];
-			    var event = new ICAL.Event(vevent);
-			
-			    if (event.isRecurring()) {
-			        var iter = event.iterator(iterStartTime);
-			        X = 0;
-			        while (X < daysForward && (next = iter.next())) {
-			            X = X + 1;
-			            var key = next.year + '-' + addZero(next.month) + '-' + addZero(next.day);
-			
-			            // ignore it if it isn't in our list of daysForward.
-			            if (!(key in weekSchedule)) continue;
-			
-			
-			            weekSchedule[key].events.push({
-			                'summary': event.summary,
-			                'description': event.description,
-			                'starttime': addZero(event.startDate.hour) + addZero(event.startDate.minute),
-			                'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute)
-			            });
-			
-			
-			
-			        }
-			    }
-			    // if today is greater than the start date then ignore it since it's not recurring
-			    else if (iterStartTime.compareDateOnlyTz(event.startDate, icalTimezone) === 1) {
-			        continue;
-			    } else {
-			
-			        var esd = event.startDate.convertToZone(icalTimezone);
-			
-			        var key = esd.year + '-' + addZero(esd.month) + '-' + addZero(esd.day);
-			
-			        // ignore it if it isn't in our list of daysForward.
-			        if (!(key in weekSchedule)) continue;
-			
-			
-			        weekSchedule[key].events.push({
-			            'summary': event.summary,
-			            'description': event.description,
-			            'starttime': addZero(esd.hour) + addZero(esd.minute),
-			            'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute)
-			        });
-			
-			    }
-			
-			}
-			
-			for (var key in weekSchedule) {
-			
-			    weekSchedule[key].events.sort((a, b) => {
-			
-			        let sta = parseInt(a.starttime),
-			            stb = parseInt(b.starttime);
-			
-			        return sta - stb;
-			
-			    });
-			
-			}
-			
-
-			todaykey = icalToday.year + '-' + addZero(icalToday.month) + '-' + addZero(icalToday.day);
-			workingScheduleKey = todaykey;
+            icalTimezone = new ICAL.Timezone({
+                component: jcalTimezoneComp,
+                jcalTzId
+            });
+            icalToday.convertToZone(icalTimezone);
+            buildWeekSchedule();
 
 
-			
+            var vevents = comp.getAllSubcomponents('vevent');
+
+            var iterStartTime = new ICAL.Time({
+                year: icalToday.year,
+                month: icalToday.month,
+                day: icalToday.day,
+                minute: 0,
+                second: 1,
+                isDate: false
+            });
+
+            for (var i in vevents) {
+
+                vevent = vevents[i];
+                var event = new ICAL.Event(vevent);
+
+                if (event.isRecurring()) {
+                    var iter = event.iterator(iterStartTime);
+                    X = 0;
+                    while (X < daysForward && (next = iter.next())) {
+                        X = X + 1;
+                        var key = next.year + '-' + addZero(next.month) + '-' + addZero(next.day);
+
+                        // ignore it if it isn't in our list of daysForward.
+                        if (!(key in weekSchedule)) continue;
+
+
+                        weekSchedule[key].events.push({
+                            'summary': event.summary,
+                            'description': event.description,
+                            'starttime': addZero(event.startDate.hour) + addZero(event.startDate.minute),
+                            'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute)
+                        });
+
+
+
+                    }
+                }
+                // if today is greater than the start date then ignore it since it's not recurring
+                else if (iterStartTime.compareDateOnlyTz(event.startDate, icalTimezone) === 1) {
+                    continue;
+                } else {
+
+                    var esd = event.startDate.convertToZone(icalTimezone);
+
+                    var key = esd.year + '-' + addZero(esd.month) + '-' + addZero(esd.day);
+
+                    // ignore it if it isn't in our list of daysForward.
+                    if (!(key in weekSchedule)) continue;
+
+
+                    weekSchedule[key].events.push({
+                        'summary': event.summary,
+                        'description': event.description,
+                        'starttime': addZero(esd.hour) + addZero(esd.minute),
+                        'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute)
+                    });
+
+                }
+
+            }
+
+            for (var key in weekSchedule) {
+
+                weekSchedule[key].events.sort((a, b) => {
+
+                    let sta = parseInt(a.starttime),
+                        stb = parseInt(b.starttime);
+
+                    return sta - stb;
+
+                });
+
+            }
+
+
+            todaykey = icalToday.year + '-' + addZero(icalToday.month) + '-' + addZero(icalToday.day);
+            workingScheduleKey = todaykey;
+
+
+
         },
         complete: function(jqXHR, textStatus) {
-			buildScheduleDisplay();
-			activatePickers();
+            buildScheduleDisplay();
+            activatePickers();
         }
     });
 
