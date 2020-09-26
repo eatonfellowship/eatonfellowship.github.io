@@ -3,6 +3,7 @@ jQuery.noConflict();
 var daysForward = 7;
 
 var icalToday = new ICAL.Time.now();
+var unixNow = icalToday.toUnixTime();
 
 var jcalTimezoneComp = null;
 var jcalTzId = null;
@@ -50,18 +51,21 @@ var weekSchedule = {};
 var weekScheduleKeys = [];
 var workingScheduleKey = null;
 
-var tt = icalToday.clone();
-tt.adjust(-1, 0, 0, 0);
-for (var i = 0; i < daysForward; i++) {
-    tt.adjust(1, 0, 0, 0);
-    key = tt.year + '-' + addZero(tt.month) + '-' + addZero(tt.day);
-    weekSchedule[key] = {
-        'name': weekdayNames[tt.dayOfWeek()],
-        'name_short': weekdayNamesShort[tt.dayOfWeek()],
-        'events': []
-    };
-    weekScheduleKeys.push(key);
-}
+
+function buildWeekSchedule() {
+	var tt = icalToday.clone();
+	tt.adjust(-1, 0, 0, 0);
+	for (var i = 0; i < daysForward; i++) {
+	    tt.adjust(1, 0, 0, 0);
+	    key = tt.year + '-' + addZero(tt.month) + '-' + addZero(tt.day);
+	    weekSchedule[key] = {
+	        'name': weekdayNames[tt.dayOfWeek()],
+	        'name_short': weekdayNamesShort[tt.dayOfWeek()],
+	        'events': []
+	    };
+	    weekScheduleKeys.push(key);
+	}
+};
 
 function buildScheduleDisplay() {
 
@@ -147,8 +151,8 @@ jQuery(function(){
 
 
     jQuery.ajax({
-        url: 'https://eatonfellowship.github.io/eaton.ics',
-        //url: 'http://localhost:8000/eaton.ics',
+        url: 'https://eatonfellowship.github.io/eaton.ics?nc=' + unixNow,
+        //url: 'http://localhost:8000/eaton.ics?nc=' + unixNow,
         dataType: 'text',
         success: function(data){
 			var jcalData = ICAL.parse(data);
@@ -160,7 +164,9 @@ jQuery(function(){
 				component: jcalTimezoneComp,
 				jcalTzId
 			});
-			icalToday.convertToZone(icalTimezone)
+			icalToday.convertToZone(icalTimezone);
+			buildWeekSchedule();
+
 
 			var vevents = comp.getAllSubcomponents('vevent');
 			
