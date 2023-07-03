@@ -87,8 +87,13 @@ function buildScheduleDisplay() {
 
         var liSummary = jQuery('<div class="ec_li_summary"><span class="h3">' + workingSchedule.events[i].summary + '</span></div>');
 
-        d = workingSchedule.events[i].description.replace(/^<br>/i, '');
-
+        d = '';
+        try {
+            d = workingSchedule.events[i].description.replace(/^<br>/i, '');
+        }
+        catch {
+            // console.log('there is no description here!');
+        }
         var liDescr = jQuery('<div class="ec_li_description">');
         liDescr.append('<span>' + d + '</span>')
 
