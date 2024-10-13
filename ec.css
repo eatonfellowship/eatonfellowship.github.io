@@ -54,6 +54,7 @@
     padding: 40px 0 20px 0;
     border-bottom: 1px solid rgb(191, 191, 191);
 
+
 }
 
 .ec_schedule_li>div {
@@ -67,6 +68,7 @@
 
 .ec_schedule_li .ec_li_day_time {
     color: rgb(0, 71, 171);
+    margin: auto;
 }
 
 .ec_schedule_li .ec_li_day_time .dname {
@@ -74,11 +76,14 @@
 
 }
 
-.ec_schedule_li .ec_li_summary {}
+.ec_schedule_li .ec_li_summary {
+    margin: auto;
+}
 
 .ec_schedule_li .ec_li_description {
     color: rgb(87, 87, 87);
     line-height: 150%;
+    margin: auto;
 }
 
 

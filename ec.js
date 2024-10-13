@@ -50,6 +50,9 @@ var weekdayNamesShort = {
 var weekSchedule = {};
 var weekScheduleKeys = [];
 var workingScheduleKey = null;
+var calendar_url = "https://eatonfellowship.github.io/eaton.ics?nc=" + unixNow
+// var calendar_url = "http://localhost:8000/eaton.ics?nc=" + unixNow
+
 
 
 function buildWeekSchedule() {
@@ -70,7 +73,6 @@ function buildWeekSchedule() {
 function buildScheduleDisplay() {
 
     workingSchedule = weekSchedule[workingScheduleKey];
-    //workingDayName = workingSchedule.name;
     workingDayName = workingSchedule.name_short;
 
     scheduleContainer = jQuery('#ec_schedule_list_container');
@@ -87,9 +89,9 @@ function buildScheduleDisplay() {
 
         var liSummary = jQuery('<div class="ec_li_summary"><span class="h3">' + workingSchedule.events[i].summary + '</span></div>');
 
-        d = '';
+        var d = '';
         try {
-            d = workingSchedule.events[i].description.replace(/^<br>/i, '');
+            d = workingSchedule.events[i].description;
         }
         catch {
             // console.log('there is no description here!');
@@ -156,8 +158,7 @@ jQuery(function() {
 
 
     jQuery.ajax({
-        url: 'https://eatonfellowship.github.io/eaton.ics?nc=' + unixNow,
-        //url: 'http://localhost:8000/eaton.ics?nc=' + unixNow,
+        url: calendar_url,
         dataType: 'text',
         success: function(data) {
             var jcalData = ICAL.parse(data);
