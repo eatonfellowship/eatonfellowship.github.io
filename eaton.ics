@@ -30,7 +30,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:67kc7m8i7vj4e7lcbvpmfcsp69@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:This is a 4 week workshop. Restarts on the 1st Sunday of every Month.<br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:This is a 4 week workshop. Restarts on the 1st Sunday of every Month.<br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20231115T032951Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -43,7 +43,7 @@ DTEND:20231122T165858Z
 DTSTAMP:20241013T205428Z
 UID:fru7bfhqbhms1783294jb02qso@google.com
 CREATED:20231122T162858Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20231122T162858Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -57,7 +57,7 @@ DTEND:20231128T143320Z
 DTSTAMP:20241013T205428Z
 UID:28enueiqlo35u98tab9l4ojp5g@google.com
 CREATED:20231128T140320Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20231128T140320Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -71,7 +71,7 @@ DTEND:20240130T150000Z
 DTSTAMP:20241013T205428Z
 UID:46le7m7p9slj622cthd3ef9blo@google.com
 CREATED:20240130T145745Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240130T145745Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -85,7 +85,7 @@ DTEND:20240305T150000Z
 DTSTAMP:20241013T205428Z
 UID:jpnn1jvmkaqde7gm9hev3s6ea0@google.com
 CREATED:20240305T145145Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240305T145145Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -99,7 +99,7 @@ DTEND:20240311T043912Z
 DTSTAMP:20241013T205428Z
 UID:dhan74pee70iudcbssi65ge7ak@google.com
 CREATED:20240311T040912Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240311T040912Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -113,7 +113,7 @@ DTEND:20240312T135850Z
 DTSTAMP:20241013T205428Z
 UID:ibma0s1062v60g03b3fqc7qf3c@google.com
 CREATED:20240312T132850Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240312T132850Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -127,7 +127,7 @@ DTEND:20240313T162232Z
 DTSTAMP:20241013T205428Z
 UID:m1pbv54v25f6o70scvdm83leq4@google.com
 CREATED:20240313T155232Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240313T155232Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -141,7 +141,7 @@ DTEND:20240319T140000Z
 DTSTAMP:20241013T205428Z
 UID:f7s2qvgca90ip8eqdb849uojvc@google.com
 CREATED:20240319T134756Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240319T134756Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -155,7 +155,7 @@ DTEND:20240421T221500Z
 DTSTAMP:20241013T205428Z
 UID:i1dilrak7jtfc5ddotkjvmkdgg@google.com
 CREATED:20240421T220003Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240421T220003Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -169,7 +169,7 @@ DTEND:20240504T170000Z
 DTSTAMP:20241013T205428Z
 UID:flo039n1hs1g48fak66j8fv83s@google.com
 CREATED:20240504T164735Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240504T164735Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -183,7 +183,7 @@ DTEND:20240519T221500Z
 DTSTAMP:20241013T205428Z
 UID:k869e7rpcjrd4ftnj7ue8mp1i4@google.com
 CREATED:20240519T220600Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240519T220600Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -197,7 +197,7 @@ DTEND:20240611T140000Z
 DTSTAMP:20241013T205428Z
 UID:mgbkqpk4vared4qt6154608rng@google.com
 CREATED:20240611T134539Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240611T134539Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -211,7 +211,7 @@ DTEND:20240622T170000Z
 DTSTAMP:20241013T205428Z
 UID:78dsbdj10fo5qmknufqdac4stc@google.com
 CREATED:20240622T164436Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20240622T164436Z
 LOCATION:San Carlos Peninsula Fellowship
 SEQUENCE:0
@@ -226,7 +226,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:5ur736ikkb5qkok27q6q41ll62@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T184853Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -240,7 +240,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:23degk4ggkbctn9avrvkrecp8u@google.com
 CREATED:20220925T154344Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204657Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -254,7 +254,7 @@ DTSTAMP:20241013T205428Z
 UID:23degk4ggkbctn9avrvkrecp8u@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20200906T070000
 CREATED:20220925T154344Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204657Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -268,7 +268,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:651btuuqav8kq7nqgld0hjs5rf@google.com
 CREATED:20231115T025810Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204709Z
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -282,7 +282,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:2j9k0l379b90gag0c2uovutfae@google.com
 CREATED:20231115T025846Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204719Z
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -296,7 +296,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:5bt76g8f7iieodvrcng0dcgskj@google.com
 CREATED:20230501T165232Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204726Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -310,7 +310,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:1kig5phofajo6dl4017059ft6v@google.com
 CREATED:20231115T030036Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204734Z
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -324,7 +324,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20241013T205428Z
 UID:21a84c5v0ehef2agcsali70c3u@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204810Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -338,7 +338,7 @@ RRULE:FREQ=WEEKLY;BYDAY=MO
 DTSTAMP:20241013T205428Z
 UID:1tlirsnkii688gscr6ls6tp8vo@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204820Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -352,7 +352,7 @@ RRULE:FREQ=WEEKLY;BYDAY=MO
 DTSTAMP:20241013T205428Z
 UID:2sioc761jsmrmttih4f2d14bu4@google.com
 CREATED:20220111T192856Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204828Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -366,7 +366,7 @@ RRULE:FREQ=WEEKLY;BYDAY=MO
 DTSTAMP:20241013T205428Z
 UID:0ev3ubgb1j2gntk17l2hscg9el@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204835Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -380,7 +380,7 @@ RRULE:FREQ=WEEKLY;BYDAY=MO
 DTSTAMP:20241013T205428Z
 UID:2qvel9b2ngsl83c4v6vn0fnb8e@google.com
 CREATED:20220111T192841Z
-DESCRIPTION:<b>Discussion</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Discussion</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204841Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -394,7 +394,7 @@ RRULE:FREQ=WEEKLY;BYDAY=MO
 DTSTAMP:20241013T205428Z
 UID:7hq7d67jg3g84h2up6kqc4sq49@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204859Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -409,7 +409,7 @@ DTSTAMP:20241013T205428Z
 UID:029kh1mpbn0ihmtus12hgd45fg@google.com
 CLASS:PUBLIC
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Speaker / Discussion</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Speaker / Discussion</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204910Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -423,7 +423,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20241013T205428Z
 UID:2rt391je5eiql3gine1ih4j48i@google.com
 CREATED:20220111T193100Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204926Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -437,7 +437,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20241013T205428Z
 UID:1rb1qesg7npt9h9s6l728od50r@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204932Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -451,7 +451,7 @@ DTSTAMP:20241013T205428Z
 UID:1rb1qesg7npt9h9s6l728od50r@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20200811T120000
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204932Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -465,7 +465,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20241013T205428Z
 UID:298oqg2v6aom77iumcfc7luvpa@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204946Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -479,7 +479,7 @@ DTSTAMP:20241013T205428Z
 UID:298oqg2v6aom77iumcfc7luvpa@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20200811T163000
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204946Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -493,7 +493,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20241013T205428Z
 UID:3kcms88m1c9ukmu37bordtk2f4@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Big Book Study</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Big Book Study</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204953Z
 SEQUENCE:4
 STATUS:CONFIRMED
@@ -507,7 +507,7 @@ DTSTAMP:20241013T205428Z
 UID:3kcms88m1c9ukmu37bordtk2f4@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20200811T180000
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Big Book Study</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Big Book Study</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T204953Z
 SEQUENCE:4
 STATUS:CONFIRMED
@@ -521,7 +521,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20241013T205428Z
 UID:53vm5qro7bt2uf1riebh3k0tg9@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205003Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -535,7 +535,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:1tgmtmqm8j61ov4nhvsndcjmp9@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205017Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -549,7 +549,7 @@ DTSTAMP:20241013T205428Z
 UID:1tgmtmqm8j61ov4nhvsndcjmp9@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20200812T070000
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205017Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -563,7 +563,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:7h285sp1gjik2o5aetiih83ob7@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Joe & Charlie / 12x12</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Joe & Charlie / 12x12</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205026Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -577,7 +577,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:5e99ju94pel6kbi2bri6u0sfpp@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205032Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -591,7 +591,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:0i67a8un8dn8c9cncqdllhn740@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205038Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -605,7 +605,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:6p66qqs56v1m4t9pd8ajne8ij7@google.com
 CREATED:20220925T152944Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205052Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -619,7 +619,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20241013T205428Z
 UID:5oua2lbgr3rbv96q3lm0qr1pjg@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205059Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -633,7 +633,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20241013T205428Z
 UID:32tolmngqp0v9mmvohtfqv0fim@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205130Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -647,7 +647,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20241013T205428Z
 UID:3ee4ch01fob2v6f13hbmcl56v0@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205140Z
 SEQUENCE:4
 STATUS:CONFIRMED
@@ -661,7 +661,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20241013T205428Z
 UID:5u3dfhqpjmko0v2rl93bcfmlkh@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205232Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -675,7 +675,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20241013T205428Z
 UID:10l6ldf11j6nofqvppp8s0nvbn@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Topic / Discussion</b><br><i>Speaker 4th Thursday</i><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Topic / Discussion</b><br><i>Speaker 4th Thursday</i><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205240Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -689,7 +689,7 @@ DTSTAMP:20241013T205428Z
 UID:10l6ldf11j6nofqvppp8s0nvbn@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20210923T180000
 CREATED:20210924T050023Z
-DESCRIPTION:<b>Speaker / Discussion</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>Speaker / Discussion</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
  &nbsp\;</a>
 LAST-MODIFIED:20241013T205240Z
 SEQUENCE:3
@@ -704,7 +704,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20241013T205428Z
 UID:5clit78nd52un1kqg2lhuhggdh@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205247Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -718,7 +718,7 @@ DTSTAMP:20241013T205428Z
 UID:5clit78nd52un1kqg2lhuhggdh@google.com
 RECURRENCE-ID;TZID=America/Los_Angeles:20210923T193000
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205247Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -732,7 +732,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:3hr3tuhhfam8ah1nedafscjkrg@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205259Z
 SEQUENCE:4
 STATUS:CONFIRMED
@@ -746,7 +746,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:1gut82rlgjbdhmt8f5ljk6fht2@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205306Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -760,7 +760,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:50q1t1qku8h66jivtmsotk37nk@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205313Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -774,7 +774,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:0i834prqfh21ej8b5odso9mm8d@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205324Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -788,7 +788,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:2a0f9e2sqtahf87nnaqun4dshc@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<b>BIRTHDAY CHIP MEETING</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>BIRTHDAY CHIP MEETING</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205331Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -802,7 +802,7 @@ RRULE:FREQ=WEEKLY;BYDAY=FR
 DTSTAMP:20241013T205428Z
 UID:3tr2k8ind4qcbkg1589m0kifhd@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205338Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -816,7 +816,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:6590k0hh6ed1n6kgn8mnbs18g7@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<b>BIRTHDAY CHIP MEETING</b><br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<b>BIRTHDAY CHIP MEETING</b><br><a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205346Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -830,7 +830,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:2gg3ol0riiv7s73mqeb84nt6o0@google.com
 CREATED:20220329T052608Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205352Z
 SEQUENCE:3
 STATUS:CONFIRMED
@@ -844,7 +844,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:6tsfic9f301ojng9e8vp633i1p@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205358Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -858,7 +858,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:65ea8m7i02mrhkpo8afdlnca8k@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205409Z
 SEQUENCE:2
 STATUS:CONFIRMED
@@ -872,7 +872,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SA
 DTSTAMP:20241013T205428Z
 UID:4c7ornpiiu28ehi8fr0kmnm2cd@google.com
 CREATED:20210924T050023Z
-DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
+DESCRIPTION:<a href="https://zoom.us/j/8931739813" target="_blank">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20241013T205421Z
 SEQUENCE:2
 STATUS:CONFIRMED
