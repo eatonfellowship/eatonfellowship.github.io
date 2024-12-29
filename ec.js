@@ -95,7 +95,7 @@ function buildScheduleDisplay() {
         if (is_long) {
             timeString = to12hour(timeStart) + ' until ' + to12hour(timeEnd);
         } else {
-            timeString = to12hour(timeStart) + "(1 hour)";
+            timeString = to12hour(timeStart);
         }
 
         var li = jQuery('<div class="ec_schedule_li">');
