@@ -80,7 +80,23 @@ function buildScheduleDisplay() {
 
     for (var i = 0; i < workingSchedule.events.length; i++) {
 
-        var timeString = to12hour(workingSchedule.events[i]['starttime']) + ' - ' + to12hour(workingSchedule.events[i]['endtime'])
+        var event = workingSchedule.events[i]
+        var timeStart = event['starttime']
+        var timeEnd = event['endtime']
+        let is_long = event['is_long']
+
+        // If its long show as
+        //    4:45 PM until 7:00 PM
+        // Otherwise just show the hour
+        // 7 PM
+        // The way this is done is hacky right now but sufficient
+
+        var timeString = ""
+        if (is_long) {
+            timeString = to12hour(timeStart) + ' until ' + to12hour(timeEnd);
+        } else {
+            timeString = to12hour(timeStart) + "(1 hour)";
+        }
 
         var li = jQuery('<div class="ec_schedule_li">');
         var liDayTime = jQuery('<div class="ec_li_day_time">');
@@ -200,12 +216,16 @@ jQuery(function() {
                         // ignore it if it isn't in our list of daysForward.
                         if (!(key in weekSchedule)) continue;
 
+                        // NOTE: This is a bit of a hack until this script can be cleaned up a bit ...
+                        //        we want to show durations > 1h explicitly, otherwise just say 1h
+                        let isLong = (event.endDate.hour - event.startDate.hour) > 1;
 
                         weekSchedule[key].events.push({
                             'summary': event.summary,
                             'description': event.description,
                             'starttime': addZero(event.startDate.hour) + addZero(event.startDate.minute),
-                            'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute)
+                            'endtime': addZero(event.endDate.hour) + addZero(event.endDate.minute),
+                            'is_long': isLong
                         });
 
 
