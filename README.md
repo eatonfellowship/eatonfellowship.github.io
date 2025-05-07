@@ -16,7 +16,7 @@ When you make changes to the calendar and re-export the ics file, it's good to v
 * download new .ics file to someplace like eaton-new.ics
 * change `ec.js` to look at the new file
 * change `ec.html` to point to the local `ec.js` file
-* from a terminal start a simple python server on port 8000:  `pyton -m http.server 8000` from the same directory as `ec.js`
+* from a terminal start a simple python server on port 8000:  `python -m http.server 8000` from the same directory as `ec.js`
 * load `ec.html` in Safari/chrome
 * verify the calendar looks as you expect
 * revert back the url changes (in javascript / html)
