@@ -6,6 +6,26 @@ The [eatonfellowship.org](https://eatonfellowship.org) website is built using th
 ## The solution
 It's a bit of a hack, but the html/css/javascript in this project is a replacement for that widget to address the current day issue. It also has the added benefit of giving us finer grained control over the look and feel of the calendar events list.
 
+# Updating the calendar
+* Step 1
+** Approach 1
+*** Update the calendar for eatonzoom1133@gmail.com - take care to update the recurring events
+*** Export the .ics file, and compare it to eaton.ics in this repository
+*** Test using the (Testing Locally) directions below to make sure it works
+*** Commit the eaton.ics file to github
+
+** Approach 2
+*** Alternatively - edit the .ics file locally
+*** Test using the (Testing Locally) directions below to make sure it works
+*** Import the .ics file to eatonzoom1133@gmail.com 
+*** Commit the eaton.ics file to github
+
+* Step 2
+** Updating Meeting Schedule (Chair app) and central office
+*** Email a prose version of the calendar changes (new meeting format / etc) to central office at: aasanmateo@gmail.com
+*** Profit!
+
+
 ### Why GitHub?
 Well apart from the obvious reasons for using GitHub to store a project's code, like using a [Version Control System](https://guides.github.com/introduction/git-handbook) and all of the great [features](https://github.com/features) on GitHub.com the main reason is [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), or more specifically the lack of an **"Access-Control-Allow-Origin: \*"** header on [Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=eatonzoom1133@gmail.com&ctz=America/Los_Angeles), making it impossible for us to grab the iCal file directly from Google using [AJAX](https://en.wikipedia.org/wiki/Ajax_%28programming%29) . So to get around that we are hosting the iCal file here on GitHub which does have the needed Access-Control-Allow-Origin header. It also allows us to host our javascript code from [eatonfellowship.github.io](https://eatonfellowship.github.io) instead of copying it into the GoDaddy website builder itself.
 
@@ -21,3 +41,6 @@ When you make changes to the calendar and re-export the ics file, it's good to v
 * verify the calendar looks as you expect
 * revert back the url changes (in javascript / html)
 * move the calendar to the "real" spot (`mv eaton-new.ics eaton.ics`)
+
+
+
