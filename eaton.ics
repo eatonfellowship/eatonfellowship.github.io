@@ -91,7 +91,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20250731T172655Z
 UID:10l6ldf11j6nofqvppp8s0nvbn@google.com
 CREATED:20241013T205428Z
-DESCRIPTION:<b>Topic / Discussion</b><br><i>Speaker 4th Thursday</i><br><a 
+DESCRIPTION:<b>Topic / Discussion</b><br><i>Speaker 4th Thursday</i><br><a
  href="https://zoom.us/j/8931739813">https://zoom.us/j/8931739813</a>
 LAST-MODIFIED:20250506T183505Z
 SEQUENCE:3
@@ -156,7 +156,7 @@ DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/893173
 LAST-MODIFIED:20250506T183505Z
 SEQUENCE:3
 STATUS:CONFIRMED
-SUMMARY:As Bill Sees It / Discussion (In Person / Zoom)
+SUMMARY:As Bill Sees It (In Person / Zoom)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -186,7 +186,7 @@ DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/893173
 LAST-MODIFIED:20250506T183505Z
 SEQUENCE:3
 STATUS:CONFIRMED
-SUMMARY:As Bill Sees It / Discussion (In Person / Zoom)
+SUMMARY:As Bill Sees It (In Person / Zoom)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -201,7 +201,7 @@ DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/893173
 LAST-MODIFIED:20250506T183505Z
 SEQUENCE:3
 STATUS:CONFIRMED
-SUMMARY:As Bill Sees It / Discussion (In Person / Zoom)
+SUMMARY:As Bill Sees It (In Person / Zoom)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -665,7 +665,7 @@ DESCRIPTION:<a href="https://zoom.us/j/8931739813">https://zoom.us/j/893173
 LAST-MODIFIED:20250506T183505Z
 SEQUENCE:2
 STATUS:CONFIRMED
-SUMMARY:As Bill Sees It / Discussion (In Person / Zoom)
+SUMMARY:As Bill Sees It (In Person / Zoom)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
@@ -750,7 +750,7 @@ RRULE:FREQ=WEEKLY;BYDAY=SU
 DTSTAMP:20250731T172655Z
 UID:67kc7m8i7vj4e7lcbvpmfcsp69@google.com
 CREATED:20241013T205428Z
-DESCRIPTION:This is a 4 week workshop. Restarts on the 1st Sunday of every 
+DESCRIPTION:This is a 4 week workshop. Restarts on the 1st Sunday of every
  Month.<br><a href="https://zoom.us/j/8931739813">https://zoom.us/j/89317398
  13</a>
 LAST-MODIFIED:20250731T172559Z
